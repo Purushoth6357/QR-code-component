@@ -1,0 +1,37 @@
+body {
+    background-color: #d5e1ef;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 150px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.qr_code>img {
+    width: 100%;
+    height: inherit;
+    border-radius: 10px;
+}
+
+.heading {
+    width: 100%;
+    height: inherit;
+    font-weight: bold;
+    color: rgb(16, 27, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+    color: rgba(16, 27, 48, 0.5);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
